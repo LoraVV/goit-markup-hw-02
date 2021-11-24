@@ -1,0 +1,32 @@
+body {
+    background: #FFFFFF;
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.logo span,
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196F3;
+}
+
+.links,
+.title {
+    color: #212121;
+}
