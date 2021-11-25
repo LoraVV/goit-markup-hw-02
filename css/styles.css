@@ -27,23 +27,24 @@ button {
 
 /* ===========Лого=========== */
 
-.logo {
+.logo-up,
+.logo-under {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
 
-.logo.up {
+.logo-up {
     color: #000;
 }
 
-.logo.under {
+.logo-under {
     color: var(--primary-white-color);
 }
 
-.logo>span,
-.nav-link:hover,
+.logo-up>span,
+.logo-under>span .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-color);
 }
