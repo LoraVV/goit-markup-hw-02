@@ -2,25 +2,28 @@ body {
     background: #FFFFFF;
     color: #757575;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
 }
 
 ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     color: #000000;
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
+    line-height: 1.19em;
 }
 
-.logo span,
+.logo>span,
 .nav-link:hover,
 .nav-link:focus {
     color: #2196F3;
@@ -29,4 +32,33 @@ ul {
 .links,
 .title {
     color: #212121;
+}
+
+.hero.title {
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+}
+
+.button-active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88em;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.button {
+    color: #212121;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.button-active:hover,
+.button-active:active {
+    background-color: #1b71b8;
 }

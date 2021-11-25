@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Шапка сайта -->
     <header>
-        <nav class="sitenav-links">
+        <nav class="sitenav">
             <a class="logo" href="/"><span>Web</span>Studio</a>
 
-            <ul>
+            <ul class="sitenav-links">
                 <li><a class="nav-link links" href="./studio.html">Студия</a></li>
                 <li><a class="nav-link links" href="./portfolio.html">Портфолио</a></li>
                 <li><a class="nav-link links" href="">Контакты</a></li>
@@ -32,61 +33,61 @@
     <main>
         <!-- Навигация по проектам -->
 
-        <head>
+        <head class="head">
             <ul class="links">
-                <li class="nav-link">Все</li>
-                <li class="nav-link">Веб-сайты</li>
-                <li class="nav-link">Приложения</li>
-                <li class="nav-link">Дизайн</li>
-                <li class="nav-link">Маркетинг</li>
+                <li class="nav-link button-active">Все</li>
+                <li class="nav-link button">Веб-сайты</li>
+                <li class="nav-link button">Приложения</li>
+                <li class="nav-link button">Дизайн</li>
+                <li class="nav-link button">Маркетинг</li>
             </ul>
         </head>
 
         <!-- Проекты -->
-        <section>
-            <ul>
+        <section class="main-projects">
+            <ul class="projects-list">
                 <li>
-                    <img src="./images/imgprojects1.jpg" alt="Ноутбук с изображением сотрудников">
+                    <img src="./images/imgprojects1.jpg" alt="Ноутбук с изображением сотрудников" width="380">
                     <h3 class="title">Технокряк</h3>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects2.jpg" alt="Два баскетболиста">
+                    <img src="./images/imgprojects2.jpg" alt="Два баскетболиста" width="380">
                     <h3 class="title">Постер New Orlean vs Golden Star</h3>
                     <p>Дизайн</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects3.jpg" alt="Логотип ресторана">
+                    <img src="./images/imgprojects3.jpg" alt="Логотип ресторана" width="380">
                     <h3 class="title">Ресторан Seafood</h3>
                     <p>Приложение</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects4.jpg" alt="Наушники">
+                    <img src="./images/imgprojects4.jpg" alt="Наушники" width="380">
                     <h3 class="title">Проект Prime</h3>
                     <p>Маркетинг</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects5.jpg" alt="Картонные коробки">
+                    <img src="./images/imgprojects5.jpg" alt="Картонные коробки" width="380">
                     <h3 class="title">Проект Boxes</h3>
                     <p>Приложение</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects6.jpg" alt="Монитор">
+                    <img src="./images/imgprojects6.jpg" alt="Монитор" width="380">
                     <h3 class="title">Inspiration has no Borders</h3>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects7.jpg" alt="Открытый журнал">
+                    <img src="./images/imgprojects7.jpg" alt="Открытый журнал" width="380">
                     <h3 class="title">Издание Limited Edition</h3>
                     <p>Дизайн</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects8.jpg" alt="Бирка с логотипом">
+                    <img src="./images/imgprojects8.jpg" alt="Бирка с логотипом" width="380">
                     <h3 class="title">Проект LAB</h3>
                     <p>Маркетинг</p>
                 </li>
                 <li>
-                    <img src="./images/imgprojects9.jpg" alt="Работа за ноутбуком">
+                    <img src="./images/imgprojects9.jpg" alt="Работа за ноутбуком" width="380">
                     <h3 class="title">Growing Business</h3>
                     <p>Приложение</p>
                 </li>
@@ -95,7 +96,7 @@
     </main>
 
     <!-- Подвал -->
-    <footer>
+    <footer class="footer">
 
         <a class="logo" href="/"><span>Web</span>Studio</a>
 
