@@ -9,7 +9,7 @@
 body {
     background: var(--primary-white-color);
     color: var(--primary-text-color);
-    font-family: 'Roboto', "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-style: 400;
     font-size: 14px;
     line-height: 1.7;
