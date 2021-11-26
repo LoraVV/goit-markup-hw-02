@@ -44,6 +44,8 @@ a {
 }
 
 .logo-first-word,
+.nav-link:hover,
+.nav-link:focus,
 .contact:hover,
 .contact:focus {
     color: var(--accent-color);
