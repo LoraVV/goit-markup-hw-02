@@ -76,7 +76,6 @@ button {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-align: center;
 }
 
 .button-hero {
@@ -88,6 +87,7 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
+    background-color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -97,23 +97,24 @@ button {
 }
 
 
-/* ===========Преимущества/Работы=========== */
+/* ===========Преимущества/Работы/Команда=========== */
 
 .benefits-first-title,
-.work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+.work-title,
+.team-first-title,
+.title-benefits,
+.title-team {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
-.title-benefits,
-.title-team {
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-    text-align: center;
+.team-first-title,
+.benefits-first-title,
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 
 .text-benefits,
@@ -175,9 +176,9 @@ button {
 
 /* PORTFOLIO */
 
-.button,
-.button:hover,
-.button:focus {
+.button-links,
+.button-links:hover,
+.button-links:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63px;
@@ -186,15 +187,15 @@ button {
     cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-}
-
-.button {
+.button-links {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+}
+
+.button-links:hover,
+.button-links:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 
