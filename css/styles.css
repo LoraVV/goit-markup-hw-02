@@ -47,6 +47,8 @@ ul {
 }
 
 .logo-first-word,
+.nav-link:hover,
+.nav-link:focus,
 .contact:hover,
 .contact:focus {
     color: var(--accent-color);
@@ -102,9 +104,9 @@ ul {
 
 /* ===========Преимущества/Работы/Команда=========== */
 
+.benefits-first-title,
 .work-title,
 .team-first-title,
-.title-benefits,
 .title-team {
     text-align: center;
     letter-spacing: 0.03em;
@@ -128,15 +130,12 @@ ul {
 
 /* ===========Преимущества=========== */
 
-.benefits-first-title {
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
-
 .title-benefits {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
 }
 
 .text-benefits {
