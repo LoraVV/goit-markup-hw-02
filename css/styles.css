@@ -20,10 +20,6 @@ ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 
 /* ===========Лого=========== */
 
@@ -60,6 +56,7 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--title-text-color);
 }
 
