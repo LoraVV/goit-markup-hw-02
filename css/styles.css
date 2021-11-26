@@ -45,8 +45,8 @@ button {
 }
 
 .logo-first-word,
-.nav-link:hover,
-.nav-link:focus {
+.contact:hover,
+.contact:focus {
     color: var(--accent-color);
 }
 
@@ -66,14 +66,10 @@ button {
     color: var(--primary-text-color);
 }
 
-.title {
-    color: var(--title-text-color);
-}
-
 
 /* ===========Герой=========== */
 
-.hero.title {
+.hero-title {
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -98,6 +94,19 @@ button {
 .button-hero:hover,
 .button-hero:focus {
     background-color: #1b71b8;
+}
+
+
+/* ===========Преимущества/Работы=========== */
+
+.benefits-first-title,
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
 }
 
 .title-benefits,
