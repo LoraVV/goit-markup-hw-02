@@ -41,11 +41,6 @@ ul {
     color: var(--primary-white-color);
 }
 
-.sitenav-links:hover,
-.sitenav-links:focus {
-    color: var(--accent-color);
-}
-
 .logo-first-word,
 .nav-link:hover,
 .nav-link:focus,
