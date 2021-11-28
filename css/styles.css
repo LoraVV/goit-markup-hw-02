@@ -20,6 +20,11 @@ ul {
     list-style: none;
 }
 
+.hero-box,
+.footer {
+    background-color: var(--title-bgc);
+}
+
 
 /* ===========Лого=========== */
 
@@ -164,6 +169,7 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .address-footer {
@@ -216,9 +222,3 @@ ul {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-
-
-/* .hero-box,
-.footer {
-    background-color: var(--title-bgc);
-} */
