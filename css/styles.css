@@ -25,6 +25,10 @@ ul {
     background-color: var(--title-bgc);
 }
 
+.active {
+    color: var(--accent-color);
+}
+
 
 /* ===========Лого=========== */
 
