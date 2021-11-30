@@ -10,7 +10,6 @@ body {
     background: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -85,7 +84,7 @@ ul {
 }
 
 .button-hero {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -137,10 +136,11 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    text-transform: uppercase;
 }
 
 .text-benefits {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -148,7 +148,8 @@ ul {
 
 /* ===========Команда=========== */
 
-.title-team {
+.title-team,
+.text-team {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -156,10 +157,7 @@ ul {
 }
 
 .text-team {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.19px;
-    text-align: center;
+    font-weight: 400;
 }
 
 
@@ -171,6 +169,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    text-decoration-style: none;
 }
 
 .address-footer {
@@ -189,7 +188,7 @@ ul {
 .button-links:focus {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63px;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
